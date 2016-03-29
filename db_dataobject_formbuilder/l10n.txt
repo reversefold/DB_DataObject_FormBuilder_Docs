@@ -1,0 +1,17 @@
+Here are some tips to help you localize your forms. For this, you will need to [[configuring Formbuilder|configure FormBuilder]]. Using [[configuring formbuilder#pearsetstaticproperty_dataobject.ini|PEAR::setStaticProperty() / DataObject.ini]] is the simplest way. Unfortunately, AFAIK some QuickForm variables aren't available (e.g. requiredNote). Maybe [[configuring_formbuilder#array_passed_to_create|passing an array to create]] would help, but I didn't experiment.
+
+===== French Localisation =====
+
+The following options can be used in a french UI:
+<code>
+[DB_DataObject_FormBuilder]
+dateFieldLanguage = fr
+dateElementFormat = d M y
+timeElementFormat = H:i:s
+dateTimeElementFormat = d M y H:i:s
+
+linkNewValueText = Nouveau
+submitText = Envoyer
+requiredRuleMessage = %s : Une valeur doit être fournie.
+ruleViolationMessage = %s: La valeur fournie n'est pas valide.
+</code>

@@ -1,0 +1,1 @@
+DB_DataObject_FormBuilder is released under the [[http://www.php.net/license/2_02.txt|PHP License]].

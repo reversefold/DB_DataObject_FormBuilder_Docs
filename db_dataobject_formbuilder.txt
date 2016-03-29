@@ -1,0 +1,22 @@
+
+====== The DB_DataObject_FormBuilder package ======
+
+  * [[pear:db_dataobject_formbuilder:Formbuilder documentation]]
+  * [[Formbuilder FAQs]]
+  * [[Formbuilder examples]]
+  * [[Formbuilder tutorials]]
+  * Related package: [[http://pear.php.net/package/HTML_QuickForm|HTML_QuickForm]]
+  * Related package: [[http://pear.php.net/package/DB_DataObject|DB_DataObject]]
+  * Related package: [[http://pear.php.net/package/DB|PEAR::DB]]
+  * [[http://pear.php.net/package/DB_DataObject_FormBuilder|Formbuilder package home at pear.php.net]]
+  * Slides from Markus' session at the International PHP Conference 2004 in Amsterdam are available here:
+    *  [[http://opensource.21st.de/static/formbuilder/rapidprototyping-kr.pdf|http://opensource.21st.de/static/formbuilder/rapidprototyping-kr.pdf]]
+    * **UPDATE**: The slides have been updated to reflect the changes and feature additions made to FormBuilder since the conference, thanks to Ken Restivo and Justin Patrin. The [[http://www.21st.de/downloads/rapidprototyping.pdf|original version]] is still available, just in case you're interested.
+
+
+This package was initiated by Markus Wolff and is now actively developed by:
+  * [[http://pear.php.net/user/justinpatrin|Justin Patrin]]
+  * [[http://pear.php.net/user/mw21st|Markus Wolff]]
+  * [[http://pear.php.net/user/norbert|Norbert Mocsnik]]
+
+

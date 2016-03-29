@@ -1,0 +1,19 @@
+**//Important!//** Each of your tables **must** have a single-column Primary Key. This is a limitation of DB_DataObject. If you want multi-column Primary Keys you will need to write a patch for DB_DataObject.
+
+  - [[Introduction]]
+  - [[Requirements]]
+  - [[QuickStart]]
+  - [[First steps]]
+    - [[Setting Up DB_DataObject]]
+    - [[Configuring Formbuilder]]
+    - [[Options summary]]
+    - [[l10n|Localisation]]
+    - [[Formbuilder configuration options]]
+    - [[Generating forms]]
+  - [[Advanced form customizing]]
+    - Overriding global settings - See [[Configuring Formbuilder]]
+    - [[Callback methods]]
+    - [[Applying templates to forms]]
+  - [[Beyond Advanced]] (These are interesting things users have cooked up)
+  - [[License and copyrights]]
+

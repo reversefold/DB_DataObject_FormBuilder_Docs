@@ -1,0 +1,5 @@
+  * [[http://pear.php.net/package/HTML_QuickForm|HTML_QuickForm]]
+  * [[http://pear.php.net/package/DB_DataObject|DB_DataObject]]
+    * DB_DataObject requires [[http://pear.php.net/package/DB|DB]]
+  * [[http://pear.php.net/package/Date|Date]] (Optional)
+  * [[http://pear.php.net/package/HTML_Table|HTML_Table]] (Optional)

@@ -1,0 +1,21 @@
+
+# Introduction to DB_DataObject_FormBuilder
+
+
+
+DB_DataObject_FormBuilder is a [PEAR](http://pear.php.net) package which allows you to quickly and easily create an [HTML_QuickForm](http://pear.php.net/package/HTML_QuickForm) object from a [DB_DataObject](http://pear.php.net/package/DB_DataObject). Hmmm, was that too technical?
+
+Basically this package makes it easy to edit data in any database that [PEAR::DB](http://pear.php.net/package/DB) supports. It is perfect for rapid prototyping and has enough options and customizability to make it worthwhile in a polished and finished application.
+
+The simplest use of FormBuilder creates a simple form for inserting or editing a record in your database. Right out of the box, different types of fields (numbers and strings) are treated differently and NOT NULL fields are set as required.
+
+Set a few options and date fields, large text fields, ENUMs, and others will have special element types.
+
+A few more changes and linked fields (foreign keys) show up as select boxes or radio buttons.
+
+A little more work and you can alter nearly everything including what fields are shown, the field labels, the types of fields, and much much more. There are many options to play with and lots of room for customization. There is also built-in support for many-many and many-many-many relationships with the crossLink and tripleLink features.
+
+You can even edit the data in multiple records in one HTML_QuickForm with the elementNamePrefix and elementNamePostfix options.
+
+If you're editing data in your database, DB_DataObject_FormBuilder will make your job easier and much faster.
+
